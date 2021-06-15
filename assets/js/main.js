@@ -419,7 +419,7 @@ console.log('%c Hayo Mau APA ?? Ketauin Nih hehe.', 'background: #222; color: #b
         }];
 
         $(function() {
-            $(".video-player").YTPlaylist(videos, true);
+            // $(".video-player").YTPlaylist(videos, true);
         });
 
         $('#video-play').click(function(event) {
