@@ -9,7 +9,7 @@
     Document Title
     =============================================
     -->
-    <title>Office | Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kab. Balangan</title>
+    <title>Official - BKPPD Kab. Balangan</title>
     <!--
     Favicons
     =============================================
@@ -19,12 +19,12 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="https://www.bkppd-balangankab.info/intro/assets/images/logo.png">
     <meta name="og:image" content="https://www.bkppd-balangankab.info/intro/assets/images/logo.png">
-    <meta name="og:description" content="Website Resmi Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan">
-    <meta name="og:title" content="Office | Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kab. Balangan">
+    <meta name="og:description" content="Selamat datang pada Website Resmi Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan">
+    <meta name="og:title" content="Official - BKPPD Kab. Balangan">
     <meta name="theme-color" content="dark">
-    <meta name="author" content="bkppd-balangankab.info">
+    <meta name="author" content="www.bkppd-balangankab.info">
     <meta name="keywords" content="website resmi,bkppd,bkd,kepegawaian,kepegawaian daerah,balangan,pemerintah daerah,cpns,pns,pensiun,cuti,berkala">
-    <meta name="description" content="Website Resmi Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan">
+    <meta name="description" content="Selamat datang pada Website Resmi Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan">
     <meta name="release" content="2019">
     <!--
     Stylesheets
@@ -77,7 +77,6 @@
       ga('create', 'UA-199508931-2', 'auto');
       ga('send', 'pageview');
     </script>
-  
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="80">
     <main>
