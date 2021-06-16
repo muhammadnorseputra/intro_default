@@ -28,7 +28,7 @@
     $(window).on('load', function() {
         let urlOnline = 'https://web.bkppd-balangankab.info';
         let urlOffline = 'http://localhost/smartsite';
-        fetch(`${urlOffline}/frontend/v1/apiPublic/article`)
+        fetch(`${urlOnline}/frontend/v1/apiPublic/article`)
             .then(response => response.json())
             .then((data) => {
                 data.forEach((d) => {
