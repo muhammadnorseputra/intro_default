@@ -14,20 +14,14 @@
     <meta name="keywords" content="website resmi,bkppd,bkd,kepegawaian,kepegawaian daerah,balangan,pemerintah daerah,cpns,pns,pensiun,cuti,berkala">
     <meta name="description" content="Selamat datang pada Website Resmi Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan">
     <meta name="release" content="2019">
-    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
-    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
-    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
-    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
-    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
-    <link href="assets/lib/countdown/style.css" rel="stylesheet">
     <!-- Main stylesheet and color file-->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="min/bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/lib/components-font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/lib/et-line-font/et-line-font.css">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
     <!-- <script data-ad-client="ca-pub-1099792537777374" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
     <script>
@@ -65,7 +59,7 @@
       <!--  </div>-->
       <!--</nav>-->
       
-      <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/bg-pahlawan.jpg">
+      <section class="home-section home-full-height bg-dark bg-gradient home-parallax" id="home" data-background="assets/images/bg-pahlawan.jpg">
         <div class="titan-caption">
           <div class="caption-content">
             <img src="assets/images/logo.png" alt="logo balangan" width="120">
@@ -85,8 +79,15 @@
       <div class="main">
         <section class="module-extra-small bg-light" id="news">
           <div class="container">
+            <h2 class="font-alt m-0">Update Informasi</h2>
+            <div class="font-serif">Update infromasi terbaru terkait kepegawaian daerah kabupaten balangan hanya melalui situs resmi <a href="https://www.bkppd-balangankab.info" title="BKPPD Kab. Balangan"><u>https://www.bkppd-balangankab.info/</u></a>
+              <hr>
+            </div>
             <div class="row multi-columns-row post-columns">
               <div id="article"></div>
+            </div>
+            <div class="text-center">
+              <a href="https://www.web.bkppd-balangankab.info/" class="btn btn-g btn-round btn-lg btn-border-d" type="submit">  <i class="fa fa-bullhorn"></i> &nbsp;Lihat Berita Lainnya</a>
             </div>
           </div>
         </section>
@@ -105,26 +106,8 @@
             </div>
           </div>
         </section>
-        <!--<div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>-->
+        <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
       </div>
-      <!--
-      JavaScripts
-      =============================================
-      -->
-      <script src="assets/lib/jquery/dist/jquery.js"></script>
-      <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-      <script src="assets/lib/wow/dist/wow.js"></script>
-      <!-- <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script> -->
-      <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
-      <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-      <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
-      <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-      <script src="assets/lib/smoothscroll.js"></script>
-      <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-      <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-      <script src="assets/lib/countdown/multi-countdown.js"></script>
-      <script src="assets/js/plugins.js"></script>
-      <script src="assets/js/main.js"></script>
-      
+      <script src="min/lib-min.js"></script>
     </body>
   </html>

@@ -123,7 +123,8 @@
         //process the queue
         checkAll: function() {
             var length = $.fn.appear.checks.length;
-            if (length > 0) while (length--) ($.fn.appear.checks[length])();
+            if (length > 0)
+                while (length--)($.fn.appear.checks[length])();
         },
 
         //check the queue asynchronously
@@ -136,7 +137,8 @@
     //run checks when these methods are called
     $.each(['append', 'prepend', 'after', 'before', 'attr',
         'removeAttr', 'addClass', 'removeClass', 'toggleClass',
-        'remove', 'css', 'show', 'hide'], function(i, n) {
+        'remove', 'css', 'show', 'hide'
+    ], function(i, n) {
         var old = $.fn[n];
         if (old) {
             $.fn[n] = function() {
@@ -148,25 +150,6 @@
     });
 
 })(jQuery);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 (function($) {
     $.fn.countTo = function(options) {
         // merge the default plugin settings with the custom options
@@ -204,12 +187,12 @@
     };
 
     $.fn.countTo.defaults = {
-        from: 0,  // the number the element should start at
-        to: 100,  // the number the element should end at
-        speed: 1000,  // how long it should take to count between the target numbers
-        refreshInterval: 100,  // how often the element should be updated
-        decimals: 0,  // the number of decimal places to show
-        onUpdate: null,  // callback method for every time the element is updated,
-        onComplete: null,  // callback method for when the element finishes updating
+        from: 0, // the number the element should start at
+        to: 100, // the number the element should end at
+        speed: 1000, // how long it should take to count between the target numbers
+        refreshInterval: 100, // how often the element should be updated
+        decimals: 0, // the number of decimal places to show
+        onUpdate: null, // callback method for every time the element is updated,
+        onComplete: null, // callback method for when the element finishes updating
     };
 })(jQuery);
