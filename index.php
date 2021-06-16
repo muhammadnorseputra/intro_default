@@ -59,6 +59,16 @@
       <!--  </div>-->
       <!--</nav>-->
       
+      <li class="work-item illustration webdesign">
+  <a href="portfolio_single_featured_image1.html">
+    <div class="work-image"><img src="assets/images/portfolio/masonry-portfolio1.jpg" alt="Portfolio Item"/></div>
+    <div class="work-caption font-alt">
+      <h3 class="work-title">Corporate Identity</h3>
+      <div class="work-descr">Illustration</div>
+    </div>
+  </a>
+</li>
+
       <section class="home-section home-full-height bg-dark bg-gradient home-parallax" id="home" data-background="assets/images/bg-pahlawan.jpg">
         <div class="titan-caption">
           <div class="caption-content">
