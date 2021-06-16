@@ -31,7 +31,7 @@ console.log('%c Hayo Mau APA ?? Ketauin Nih hehe.', 'background: #222; color: #b
         `;
     }
     $(window).on('load', function() {
-        fetch('http://localhost/smartsite/frontend/v1/apiPublic/article')
+        fetch('https://web.bkppd-balangankab.info/frontend/v1/apiPublic/article')
             .then(response => response.json())
             .then((data) => {
                 data.forEach((d) => {
