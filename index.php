@@ -83,7 +83,7 @@
         </div>
       </section>
       <div class="main">
-        <section class="module-extra-small bg-dark" id="news">
+        <section class="module-extra-small bg-light" id="news">
           <div class="container">
             <div class="row multi-columns-row post-columns">
               <div id="article"></div>
