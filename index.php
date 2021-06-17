@@ -48,7 +48,7 @@
               <img class="responsive-img" width="120" alt="Logo Pemerintah Daerah Kab. Balangan" src="assets/images/logo.png">
               <h1 class="teal-text text-lighten-1">Selamat Datang</h1>
               <h5 class="grey-text text-lighten-1">Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan</h5>
-              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Kab. Balangan" href="http://web.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">public</i>Portal Web</a>
+              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Kab. Balangan" href="https://web.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">public</i>Portal Web</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">analytics</i>Simpeg</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Kinerja" href="https://ekinerja.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">paid</i>E-Kinerja</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Perilaku" href="https://eprilaku.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">thumb_up_off_alt</i>E-Perilaku</a>
