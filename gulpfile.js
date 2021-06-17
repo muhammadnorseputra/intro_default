@@ -30,7 +30,9 @@ gulp.task('css', function() {
 gulp.task("lib", function() {
     return gulp
         .src([
-            "assets/lib/jquery/jquery-3.6.0.min.js",
+            "assets/js/jquery-3.6.0.min.js",
+            "assets/js/article.js",
+            "assets/js/main.js"
         ])
         .pipe(concat("lib.js"))
         .pipe(minify())

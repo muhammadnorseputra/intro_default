@@ -9,30 +9,56 @@
         let by = data.user_posting.user_nama;
         let by_link = data.user_posting.user_link;
         return `
-        <div class="col-sm-6 col-md-4 col-lg-4">
-            <div class="post mb-20">
-              <div class="post-thumbnail"><a href="${url}" title="${slug}"><img src="${img}" alt="${judul}"/></a></div>
-              <div class="post-header font-alt">
-                <h2 class="post-title"><a title="${slug}" href="${url}">${judul}</a></h2>
-                <div class="post-meta">By&nbsp;<a title="${slug}" href="${by_link}">${by}</a>&nbsp;| ${tgl} | ${comments} Comments
-                </div>
+        <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <a href="${url}" title="${slug}"><img src="${img}" alt="${judul}"></a>
               </div>
-              <div class="post-entry">
-                <p>${content}</p>
+              <div class="card-content">
+                <h6><a class="teal-text text-lighten-1" href="${url}" title="${slug}">${judul}</a></h6>
+                <p class="grey-text text-lighten-1">${content}</p>
               </div>
-              <div class="post-more"><a class="more-link" href="${url}">Read more</a></div>
+              <div class="card-action">
+                <a class="teal-text text-lighten-1" href="${url}" title="${slug}">Read More</a>
+              </div>
             </div>
           </div>
+        `;
+    }
+
+    function loadingCircle() {
+        return `
+        <div class="container">
+            <div class="row">
+                <div class="col offset-s5">        
+                    <div class="preloader-wrapper big active">
+                          <div class="spinner-layer spinner-red">
+                            <div class="circle-clipper left">
+                              <div class="circle"></div>
+                            </div><div class="gap-patch">
+                              <div class="circle"></div>
+                            </div><div class="circle-clipper right">
+                              <div class="circle"></div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         `;
     }
     $(window).on('load', function() {
         let urlOnline = 'https://web.bkppd-balangankab.info';
         let urlOffline = 'http://localhost/smartsite';
+        $("#preload").html(loadingCircle);
         fetch(`${urlOnline}/frontend/v1/apiPublic/article`)
             .then(response => response.json())
             .then((data) => {
                 data.forEach((d) => {
-                    $("#article").append(templateArticle(d));
+                    var r = templateArticle(d);
+                    $("#article").append(r);
+                    $("#preload").html('');
+
                 })
             });
     });
