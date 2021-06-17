@@ -18,14 +18,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@0.7.2/iconfont/material-icons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199508931-2"></script>
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-199508931-2', 'auto');
-    ga('send', 'pageview');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-199508931-2');
     </script>
+
   </head>
   <body class="grey lighten-4">
     <nav class="navbar teal">
@@ -79,7 +80,7 @@
         <div class="row">
           <div class="col">
             <h5 class="white-text">@TIMBKPPD</h5>
-            <p class="grey-text text-lighten-4">Update infromasi terbaru terkait kepegawaian daerah kabupaten balangan hanya melalui situs resmi <a class="white-text" href="https://www.bkppd-balangankab.info" title="BKPPD Kab. Balangan"><u>https://www.bkppd-balangankab.info/</u></p>
+            <p class="grey-text text-lighten-5">Welcome! - Thank for u joined</p>
           </div>
         </div>
       </div>
