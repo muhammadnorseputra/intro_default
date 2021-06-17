@@ -31,6 +31,7 @@ gulp.task("lib", function() {
     return gulp
         .src([
             "assets/js/jquery-3.6.0.min.js",
+            "assets/js/marquee.js",
             "assets/js/article.js",
             "assets/js/main.js"
         ])

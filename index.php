@@ -28,6 +28,18 @@
     </script>
   </head>
   <body class="grey lighten-4">
+    <nav class="navbar teal">
+      <div class="container">
+        <div class="row">
+          <div class="nav-wrapper">
+            <div class="marquee">
+              
+            Update infromasi terbaru terkait kepegawaian daerah kabupaten balangan hanya melalui situs resmi https://www.bkppd-balangankab.info/
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <main>
       <div class="container">
         <div class="row">
@@ -81,5 +93,6 @@
     <!-- Compiled and minified JavaScript -->
     <script src="public/lib-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js"></script>
   </body>
 </html>

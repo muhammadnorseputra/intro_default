@@ -1,4 +1,7 @@
 .v-center {
 	margin-top: 5%;
 }
-
+nav.navbar .marquee {
+  width: inherit; /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+}

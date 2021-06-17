@@ -15,6 +15,9 @@
                 <a href="${url}" title="${slug}"><img src="${img}" alt="${judul}"></a>
               </div>
               <div class="card-content">
+              <div class="chip">
+                ${by}
+              </div>
                 <h6><a class="teal-text text-lighten-1" href="${url}" title="${slug}">${judul}</a></h6>
                 <p class="grey-text text-lighten-1">${content}</p>
               </div>
@@ -32,7 +35,7 @@
             <div class="row">
                 <div class="col offset-s5">        
                     <div class="preloader-wrapper big active">
-                          <div class="spinner-layer spinner-red">
+                          <div class="spinner-layer spinner-teal">
                             <div class="circle-clipper left">
                               <div class="circle"></div>
                             </div><div class="gap-patch">
