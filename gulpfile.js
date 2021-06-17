@@ -24,7 +24,7 @@ gulp.task('css', function() {
             basename: 'bundle',
             suffix: '.min',
         }))
-        .pipe(gulp.dest('min/'));
+        .pipe(gulp.dest('public/'));
 });
 
 gulp.task("lib", function() {
@@ -34,5 +34,5 @@ gulp.task("lib", function() {
         ])
         .pipe(concat("lib.js"))
         .pipe(minify())
-        .pipe(gulp.dest("min/"));
+        .pipe(gulp.dest("public/"));
 });
