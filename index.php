@@ -26,7 +26,6 @@
       gtag('js', new Date());
       gtag('config', 'UA-199508931-2');
     </script>
-    <script data-ad-client="ca-pub-1099792537777374" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
   <body class="grey lighten-4">
     <nav class="navbar teal">
@@ -49,10 +48,10 @@
               <img class="responsive-img" width="120" alt="Logo Pemerintah Daerah Kab. Balangan" src="assets/images/logo.png">
               <h1 class="teal-text text-lighten-1">Selamat Datang</h1>
               <h5 class="grey-text text-lighten-1">Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan</h5>
-              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Kab. Balangan" href="https://web.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">public</i>Portal Web</a>
-              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">analytics</i>Simpeg</a>
-              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Kinerja" href="https://ekinerja.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">paid</i>E-Kinerja</a>
-              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Perilaku" href="https://eprilaku.bkppd-balangankab.info" class="waves-effect waves-light btn-flat btn-large tooltipped"><i class="material-icons left">thumb_up_off_alt</i>E-Perilaku</a>
+              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Kab. Balangan" href="https://web.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">public</i>Portal Web</a>
+              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">analytics</i>Simpeg</a>
+              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Kinerja" href="https://ekinerja.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">paid</i>E-Kinerja</a>
+              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Perilaku" href="https://eprilaku.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">thumb_up_off_alt</i>E-Perilaku</a>
             </div>
           </div>
         </div>
@@ -62,7 +61,7 @@
           
           <ul class="collapsible" data-collapsible="accordion">
             <li>
-              <div class="collapsible-header active teal-text text-lighten-1"><i class="material-icons">article</i>NEW POST</div>
+              <div class="collapsible-header active teal-text text-lighten-1"><i class="material-icons">article</i>PORTAL WEB - NEW POST</div>
               <div class="collapsible-body white">
                 <div class="row">
                   <div id="preload"></div>
