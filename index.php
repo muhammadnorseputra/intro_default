@@ -26,7 +26,7 @@
       gtag('js', new Date());
       gtag('config', 'UA-199508931-2');
     </script>
-
+    <script data-ad-client="ca-pub-1099792537777374" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
   <body class="grey lighten-4">
     <nav class="navbar teal">
