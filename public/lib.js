@@ -69,7 +69,7 @@ $(document).ready(function() {
         let urlOnline = 'https://web.bkppd-balangankab.info';
         let urlOffline = 'http://localhost/smartsite';
         $("#preload").html(loadingCircle);
-        fetch(`${urlOffline}/frontend/v1/apiPublic/article`)
+        fetch(`${urlOnline}/frontend/v1/apiPublic/article`)
             .then(response => response.json())
             .then((data) => {
                 data.forEach((d) => {
