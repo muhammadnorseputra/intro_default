@@ -39,3 +39,7 @@ gulp.task("lib", function() {
         .pipe(minify())
         .pipe(gulp.dest("public/"));
 });
+
+gulp.task('watch', function() {
+    gulp.watch('assets/js/**/*.js', gulp.series(['lib']));
+})
