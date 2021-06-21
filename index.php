@@ -83,6 +83,9 @@
                 <div class="row">
                   <div id="preload"></div>
                   <div id="article"></div>
+                  <div class="col s12">
+                    <a class="waves-effect waves-light btn-large" style="display:block;">article lainnya <i class="material-icons right">chevron_right</a>
+                  </div>
                 </div>
               </div>
             </li>
