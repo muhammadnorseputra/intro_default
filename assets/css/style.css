@@ -5,3 +5,25 @@ nav.navbar .marquee {
   width: inherit; /* the plugin works for responsive layouts so width is not necessary */
   overflow: hidden;
 }
+.progress {
+  margin: 0px !important;
+  position: absolute;
+}
+.iconadd{
+  display:inline-block ;
+}
+.iconremove{
+  display:none !important;
+}
+
+li.active .collapsible-header .material-icons.iconadd{
+  display: none;
+}
+
+li.active .collapsible-header .material-icons.iconremove{
+  display: inline-block !important;
+}
+.collapsible-header {
+    display: flex;
+    justify-content: space-between;
+}

@@ -21,31 +21,42 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199508931-2"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-199508931-2');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-199508931-2');
     </script>
   </head>
   <body class="grey lighten-4">
-    <nav class="navbar teal">
-      <div class="container">
-        <div class="row">
-          <div class="nav-wrapper">
-            <div class="marquee">
-              
-            Update infromasi terbaru terkait kepegawaian daerah kabupaten balangan hanya melalui situs resmi https://www.bkppd-balangankab.info/
+    <div class="navbar-fixed">
+      <nav class="navbar teal">
+        <div class="progress">
+          <div class="indeterminate"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="nav-wrapper">
+              <div class="col s12 m11">
+                <div class="marquee">
+                  Update infromasi terbaru terkait kepegawaian daerah kabupaten balangan hanya melalui situs resmi https://www.bkppd-balangankab.info/
+                </div>
+              </div>
+              <div class="col s1">
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="https://web.bkppd-balangankab.info/kotak_saran" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Kotak Saran"><i class="material-icons">inbox</i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <main>
       <div class="container">
         <div class="row">
           <div class="col s12">
             <div class="center-align v-center">
-              <img class="responsive-img" width="120" alt="Logo Pemerintah Daerah Kab. Balangan" src="assets/images/logo.png">
+              <img class="responsive-img scale-transition" width="120" alt="Logo Pemerintah Daerah Kab. Balangan" src="assets/images/logo.png">
               <h1 class="teal-text text-lighten-1">Selamat Datang</h1>
               <h5 class="grey-text text-lighten-1">Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan</h5>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Kab. Balangan" href="https://web.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">public</i>Portal Web</a>
@@ -59,9 +70,15 @@
       <section class="article">
         <div class="container">
           
-          <ul class="collapsible" data-collapsible="accordion">
+          <ul class="collapsible popout" data-collapsible="accordion">
             <li>
-              <div class="collapsible-header active teal-text text-lighten-1"><i class="material-icons">article</i>PORTAL WEB - NEW POST</div>
+              <div class="collapsible-header active teal-text text-lighten-1">
+                <i class="material-icons">article</i>PORTAL WEB - NEW POST 
+                <div>
+                  <i class="material-icons iconadd">add</i>
+                  <i class="material-icons iconremove">remove</i>
+                </div>
+              </div>
               <div class="collapsible-body white">
                 <div class="row">
                   <div id="preload"></div>
@@ -90,6 +107,11 @@
         </div>
       </div>
     </footer>
+    <div class="fixed-action-btn scale-transition">
+      <a href="https://wa.me/+6282151815132" class="btn-floating btn-large teal tooltipped" data-position="left" data-delay="50" data-tooltip="Contact Developer">
+        <i class="large material-icons">message</i>
+      </a>
+    </div>
     <!-- Compiled and minified JavaScript -->
     <script src="public/lib-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
