@@ -59,6 +59,7 @@
                     var r = templateArticle(d);
                     $("#article").append(r);
                     $("#preload").html('');
+                    $(".btn-more").removeClass('hide');
                 })
             });
     });
