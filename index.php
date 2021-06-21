@@ -84,7 +84,7 @@
                   <div id="preload"></div>
                   <div id="article"></div>
                   <div class="col s12 btn-more hide">
-                    <a href="https://web.bkppd-balangankab.info/beranda?sort=newest&type=all" class="waves-effect waves-light btn-large" style="display:block;">article lainnya <i class="material-icons right">chevron_right</a>
+                    <a href="https://web.bkppd-balangankab.info/beranda?sort=newest&type=all" class="waves-effect waves-light btn-large" style="display:block;">article lainnya <i class="material-icons right">chevron_right</i></a>
                   </div>
                 </div>
               </div>
