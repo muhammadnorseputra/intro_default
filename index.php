@@ -107,8 +107,8 @@
         </div>
       </div>
     </footer>
-    <div class="fixed-action-btn scale-transition">
-      <a href="https://wa.me/+6282151815132" class="btn-floating btn-large teal tooltipped" data-position="left" data-delay="50" data-tooltip="Contact Developer">
+    <div class="fixed-action-btn">
+      <a href="https://wa.me/+6282151815132" class="btn-floating btn-large teal tooltipped scale-transition" data-position="left" data-delay="50" data-tooltip="Contact Developer">
         <i class="large material-icons">message</i>
       </a>
     </div>

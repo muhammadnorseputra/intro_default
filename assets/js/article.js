@@ -17,7 +17,7 @@
               <div class="card-content">
                 <span class="grey-text text-lighten-1">${tgl} by ${by}</span>
                 <h6><a class="teal-text text-lighten-1" href="${url}" title="${slug}">${judul}</a></h6>
-                <p class="grey-text text-lighten-1 flow-text">${content}</p>
+                <p class="grey-text text-lighten-1">${content}</p>
               </div>
               <div class="card-action">
                 <a class="teal-text text-lighten-1" href="${url}" title="${slug}">Read More</a>
