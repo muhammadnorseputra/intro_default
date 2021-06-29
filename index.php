@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@0.7.2/iconfont/material-icons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
-    <script data-ad-client="ca-pub-1099792537777374" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199508931-2"></script>
     <script>
@@ -74,7 +73,7 @@
           <ul class="collapsible expandable" data-collapsible="accordion">
             <li>
               <div class="collapsible-header active orange-text text-darken-2">
-                <i class="material-icons">announcement</i>HEADLINE NEWS 
+                <i class="material-icons">announcement</i>HEADLINE NEWS
                 <div>
                   <i class="material-icons iconadd">add</i>
                   <i class="material-icons iconremove">remove</i>
@@ -87,7 +86,7 @@
             </li>
             <li>
               <div class="collapsible-header teal-text text-lighten-1">
-                <i class="material-icons">article</i>PORTAL WEB - NEW POST 
+                <i class="material-icons">article</i>PORTAL WEB - NEW POST
                 <div>
                   <i class="material-icons iconadd">add</i>
                   <i class="material-icons iconremove">remove</i>
@@ -104,7 +103,17 @@
               </div>
             </li>
           </ul>
-          
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- ads-display -->
+          <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-1099792537777374"
+          data-ad-slot="8859326512"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </section>
     </main>
