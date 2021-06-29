@@ -71,7 +71,7 @@
         <div class="container">
           
           <ul class="collapsible expandable" data-collapsible="accordion">
-            <li>
+            <!-- <li>
               <div class="collapsible-header active orange-text text-darken-2">
                 <i class="material-icons">announcement</i>HEADLINE NEWS
                 <div>
@@ -83,9 +83,9 @@
                 <div class="row">
                 </div>
               </div>
-            </li>
+            </li> -->
             <li>
-              <div class="collapsible-header teal-text text-lighten-1">
+              <div class="collapsible-header active teal-text text-lighten-1">
                 <i class="material-icons">article</i>PORTAL WEB - NEW POST
                 <div>
                   <i class="material-icons iconadd">add</i>
