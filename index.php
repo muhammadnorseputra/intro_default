@@ -69,7 +69,6 @@
       </div>
       <section class="article">
         <div class="container"> 
-          <script async src="https://cse.google.com/cse.js?cx=c81178d1d8a4e86ee"></script>
           <div class="gcse-search"></div>
           <ul class="collapsible expandable" data-collapsible="accordion">
             <!-- <li>
@@ -104,17 +103,6 @@
               </div>
             </li>
           </ul>
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- ads-display -->
-          <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-1099792537777374"
-          data-ad-slot="8859326512"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
         </div>
       </section>
     </main>
