@@ -68,7 +68,7 @@
         </div>
       </div>
       <section class="article">
-        <div class="container">am 
+        <div class="container"> 
           <script async src="https://cse.google.com/cse.js?cx=c81178d1d8a4e86ee"></script>
           <div class="gcse-search"></div>
           <ul class="collapsible expandable" data-collapsible="accordion">
