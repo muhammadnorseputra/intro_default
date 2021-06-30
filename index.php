@@ -69,8 +69,8 @@
       </div>
       <section class="article">
         <div class="container"> 
-          <div class="gcse-search"></div>
-          <ul class="collapsible expandable shadow-0" data-collapsible="accordion">
+          <div class="gcse-search shadow"></div>
+          <ul class="collapsible expandable" data-collapsible="accordion">
             <!-- <li>
               <div class="collapsible-header active orange-text text-darken-2">
                 <i class="material-icons">announcement</i>HEADLINE NEWS
