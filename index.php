@@ -94,6 +94,8 @@
               </div>
               <div class="collapsible-body white">
                 <div class="row">
+                  <script async src="https://cse.google.com/cse.js?cx=c81178d1d8a4e86ee"></script>
+                  <div class="gcse-search"></div>
                   <div id="preload"></div>
                   <div id="article"></div>
                   <div class="col s12 btn-more hide">
