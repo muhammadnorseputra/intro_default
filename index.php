@@ -132,5 +132,6 @@
     <script src="public/lib-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=c81178d1d8a4e86ee"></script>
   </body>
 </html>
