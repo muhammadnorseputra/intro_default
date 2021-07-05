@@ -4,25 +4,37 @@
 <url>
   <loc>https://www.bkppd-balangankab.info/intro/</loc>
   <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <changefreq>always</changefreq>
+   <priority>1.0000</priority>
 </url>
 <url>
   <loc>https://www.web.bkppd-balangankab.info/</loc>
   <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <changefreq>always</changefreq>
+   <priority>1.0000</priority>
 </url>
 <url>
   <loc>https://www.ekinerja.bkppd-balangankab.info/</loc>
   <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <changefreq>always</changefreq>
+   <priority>1.0000</priority>
 </url>
 <url>
-  <loc>https://www.silka.bkppd-balangankab.info/</loc>
+  <loc>http://www.silka.bkppd-balangankab.info/</loc>
   <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <changefreq>always</changefreq>
+   <priority>1.0000</priority>
 </url>
 <url>
   <loc>https://www.eprilaku.bkppd-balangankab.info/</loc>
   <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <changefreq>always</changefreq>
+   <priority>1.0000</priority>
 </url>
 <url>
   <loc>https://www.web.bkppd-balangankab.info/skm</loc>
   <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <changefreq>always</changefreq>
+   <priority>1.0000</priority>
 </url>
 </urlset>
