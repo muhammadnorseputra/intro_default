@@ -4,13 +4,30 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://www.bkppd-balangankab.info/intro/</loc>
   <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <priority>0.1<priority>
 </url>
-
-
+<url>
+  <loc>https://www.web.bkppd-balangankab.info/</loc>
+  <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <priority>0.1<priority>
+</url>
+<url>
+  <loc>https://www.ekinerja.bkppd-balangankab.info/</loc>
+  <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <priority>0.1<priority>
+</url>
+<url>
+  <loc>https://www.silka.bkppd-balangankab.info/</loc>
+  <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <priority>0.1<priority>
+</url>
+<url>
+  <loc>https://www.eprilaku.bkppd-balangankab.info/</loc>
+  <lastmod>2021-06-18T02:31:28+00:00</lastmod>
+  <priority>0.1<priority>
+</url>
 </urlset>
