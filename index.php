@@ -24,12 +24,12 @@
     <link rel="apple-touch-icon" sizes="167x167" href="assets/images/logo.png">
     <link rel="apple-touch-startup-image" href="assets/images/logo.png">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199508931-2"></script> -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199508931-2"></script>
     <script>
-    // window.dataLayer = window.dataLayer || [];
-    // function gtag(){dataLayer.push(arguments);}
-    // gtag('js', new Date());
-    // gtag('config', 'UA-199508931-2');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-199508931-2');
     </script>
   </head>
   <body class="grey lighten-4">
@@ -74,21 +74,7 @@
       </div>
       <section class="article">
         <div class="container">
-          <!-- <div class="gcse-search"></div> -->
           <ul class="collapsible expandable" data-collapsible="accordion">
-            <!-- <li>
-              <div class="collapsible-header active orange-text text-darken-2">
-                <i class="material-icons">announcement</i>HEADLINE NEWS
-                <div>
-                  <i class="material-icons iconadd">add</i>
-                  <i class="material-icons iconremove">remove</i>
-                </div>
-              </div>
-              <div class="collapsible-body white">
-                <div class="row">
-                </div>
-              </div>
-            </li> -->
             <li class="active">
               <div class="collapsible-header teal-text text-lighten-1">
                 <i class="material-icons">article</i>PORTAL WEB - NEW POST
@@ -109,7 +95,8 @@
               </div>
             </li>
           </ul>
-          <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <ins class="adsbygoogle"
             style="display:block"
             data-ad-format="fluid"
@@ -118,7 +105,7 @@
             data-ad-slot="5769488115"></ins>
           <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
-          </script> -->
+          </script>
         </div>
       </section>
     </main>
