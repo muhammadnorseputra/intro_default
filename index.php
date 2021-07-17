@@ -8,7 +8,7 @@
     <title>Official - BKPPD Balangan</title>
     <meta name="theme-color" content="dark">
     <meta name="author" content="www.bkppd-balangankab.info">
-    <meta name="keywords" content="Official - BKPPD Balangan">
+    <meta name="keywords" content="official, web, bkppd balangan, web bkd, bkd balangan, bkppd, cpns 2021 balangan, casn 2021, pppk 2021, bkppd balangan, formasi, pengadaan, informasi cpns, info cpns, info casn, sscasn, portal">
     <meta name="description" content="Selamat datang pada Website Resmi Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan">
     <meta name="release" content="2019">
     <meta name="og:image" content="https://www.bkppd-balangankab.info/intro/assets/images/logo.png">
