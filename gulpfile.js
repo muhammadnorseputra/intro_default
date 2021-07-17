@@ -8,7 +8,8 @@ var rename = require('gulp-rename');
 
 gulp.task('css', function() {
     return gulp.src([
-            'assets/css/style.css'
+            'assets/css/style.css',
+            'assets/plugin/materialize/css/materialize.min.css'
         ])
         .pipe(concatCss("bundle.css"))
         .pipe(cleanCSS({
@@ -31,6 +32,8 @@ gulp.task("lib", function() {
     return gulp
         .src([
             "assets/js/jquery-3.6.0.min.js",
+            "assets/plugin/js-marquee/jquery.marquee.min.js",
+            "assets/plugin/materialize/js/materialize.min.js",
             "assets/js/marquee.js",
             "assets/js/article.js",
             "assets/js/main.js"
@@ -42,4 +45,6 @@ gulp.task("lib", function() {
 
 gulp.task('watch', function() {
     gulp.watch('assets/js/**/*.js', gulp.series(['lib']));
+    gulp.watch('assets/plugin/**/*.js', gulp.series(['lib']));
+    gulp.watch('assets/css/**/*.css', gulp.series(['css']));
 })

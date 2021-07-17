@@ -1,6 +1,6 @@
 // Chips
 $(document).ready(function() {
-    $('.chips').material_chip();
+     M.AutoInit();
 })
 document.addEventListener("DOMContentLoaded", function() {
     $('.progress')

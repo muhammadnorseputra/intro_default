@@ -1,3 +1,37 @@
+@import url("https://cdn.jsdelivr.net/npm/material-icons@0.7.2/iconfont/material-icons.min.css");
+
+@font-face {
+  font-family: "Poppins-Reguler";
+  src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url('../assets/fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url('../assets/fonts/Poppins-ExtraBold.ttf');
+}
+@font-face {
+  font-family: "Poppins-light";
+  src: url('../assets/fonts/Poppins-Light.ttf.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins-Reguler', sans-serif;
+}
+
+h1 {
+  font-family: "Poppins-ExtraBold";
+  font-size: 3.5rem !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+h2 {
+  font-family: "Poppins-Bold";
+  font-size: 1.5rem !important;
+}
 .v-center {
 	margin-top: 5%;
 }
