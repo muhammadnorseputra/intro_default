@@ -96,7 +96,7 @@
             </li>
           </ul>
 
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1099792537777374" crossorigin="anonymous"></script>
             <ins class="adsbygoogle"
             style="display:block"
             data-ad-format="fluid"
