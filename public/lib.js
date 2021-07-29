@@ -36,7 +36,7 @@ $(document).ready(function() {
         <div class="col s12 m4">
             <div class="card scale-transition hoverable">
               <div class="card-image">
-                <a href="${url}" title="${slug}"><img src="${img}" alt="${judul}"></a>
+                <a href="${url}" title="${slug}"><img src="${img}" alt="${judul}" style="object-fit:cover; height:130px;"></a>
               </div>
               <div class="card-content">
                 <span class="grey-text text-lighten-1">${tgl} by ${by}</span>
