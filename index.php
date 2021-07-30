@@ -85,10 +85,9 @@
               </div>
               <div class="collapsible-body white">
                 <div class="row">
-                  <script async src="https://cse.google.com/cse.js?cx=c81178d1d8a4e86ee"></script>
                   <div id="preload"></div>
                   <div id="article"></div>
-                  <div class="col s12 btn-more hide">
+                  <div class="col s12 m6 btn-more hide">
                     <a href="https://web.bkppd-balangankab.info/beranda?sort=newest&type=all" class="waves-effect waves-light btn-large" style="display:block;">article lainnya <i class="material-icons right">chevron_right</i></a>
                   </div>
                 </div>
