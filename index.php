@@ -125,11 +125,11 @@
       </div>
     </footer>
     <div class="fixed-action-btn">
-      <a href="https://wa.me/+6283107708052" class="btn-floating btn-large teal tooltipped scale-transition" data-position="left" data-delay="50" data-tooltip="Kontak Panitia Seleksi CASN Balangan 2021">
-        <i class="large material-icons">message</i>
+      <a rel="noreferrer" target="_blank" href="https://www.buymeacoffee.com/putrabungsu6" class="btn-floating btn-large orange tooltipped scale-transition" data-position="left" data-delay="50" data-tooltip="I'm Developer (Buy me a coffee)">
+        <i class="large material-icons">coffee</i>
       </a>
     </div>
     <!-- Compiled and minified JavaScript -->
-    <script src="public/lib-min.js"></script>
+    <script defer src="public/lib-min.js" crossorigin="anonymous"></script>
   </body>
 </html>
