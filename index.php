@@ -94,7 +94,7 @@
               </div>
             </li>
           </ul>
-
+          <!--
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1099792537777374" crossorigin="anonymous"></script>
             <ins class="adsbygoogle"
             style="display:block"
@@ -105,6 +105,7 @@
           <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
+          -->
         </div>
       </section>
     </main>
