@@ -64,7 +64,7 @@
         //         })
         //     });
         $.ajax({
-          url: `${urlOffline}/frontend/v1/apiPublic/article`, 
+          url: `${urlOnline}/frontend/v1/apiPublic/article`, 
           dataType: 'jsonp',
           jsonpCallback: 'jsondata',
           success: function(obj) {
