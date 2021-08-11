@@ -48,18 +48,35 @@
         </div>
         `;
     }
+
     $(window).on('load', function() {
         let urlOnline = 'https://web.bkppd-balangankab.info';
         let urlOffline = 'http://localhost/smartsite';
         $("#preload").html(loadingCircle);
-        fetch(`${urlOnline}/frontend/v1/apiPublic/article`)
-            .then(response => response.json())
-            .then((data) => {
-                data.forEach((d) => {
-                    var r = templateArticle(d);
-                    $("#article").append(r);
-                    $("#preload").html('');
-                    $(".btn-more").removeClass('hide');
-                })
-            });
+        // fetch(`${urlOffline}/frontend/v1/apiPublic/article`)
+        //     .then((response) => response.json())
+        //     .then((data) => {
+        //         data.forEach((d) => {
+        //             var r = templateArticle(d);
+        //             $("#article").append(r);
+        //             $("#preload").html('');
+        //             $(".btn-more").removeClass('hide');
+        //         })
+        //     });
+        $.ajax({
+          url: `${urlOffline}/frontend/v1/apiPublic/article`, 
+          dataType: 'jsonp',
+          jsonpCallback: 'jsondata',
+          success: function(obj) {
+            obj.forEach((d) => {
+                var r = templateArticle(d);
+                $("#article").append(r);
+                $("#preload").html('');
+                $(".btn-more").removeClass('hide');
+            })
+          },
+           error: function(xhr, status, msg) {
+            console.log('Status: ' + status + "\n" + msg);
+          }
+        })
     });
