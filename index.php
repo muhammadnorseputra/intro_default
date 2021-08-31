@@ -126,9 +126,10 @@
       </div>
     </footer>
     <div class="fixed-action-btn">
-      <a rel="noreferrer" target="_blank" href="https://www.buymeacoffee.com/putrabungsu6" class="btn-floating btn-large orange tooltipped scale-transition" data-position="left" data-delay="50" data-tooltip="I'm Developer (Buy me a coffee)">
+      <!-- <a rel="noreferrer" target="_blank" href="https://www.buymeacoffee.com/putrabungsu6" class="btn-floating btn-large orange tooltipped scale-transition" data-position="left" data-delay="50" data-tooltip="I'm Developer (Buy me a coffee)">
         <i class="large material-icons">coffee</i>
-      </a>
+      </a> -->
+      <script data-name="NBJ-Widget" data-cfasync="false" src="https://www.nihbuatjajan.com/javascripts/widget.prod.min.js" data-id="putra" data-domain="https://www.nihbuatjajan.com" data-description="" data-message="" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
     </div>
     <!-- Compiled and minified JavaScript -->
     <script defer src="public/lib-min.js" crossorigin="anonymous"></script>
