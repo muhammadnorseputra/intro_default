@@ -16,6 +16,7 @@
     <meta name="og:title" content="Official - BKPPD Balangan">
 
     <!-- Compiled and minified CSS -->
+    <meta name="propeller" content="d4851115f7a03574554b44fc26275e93">
     <link rel="stylesheet" href="public/bundle.min.css">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
     <link rel="apple-touch-icon" href="assets/images/logo.png">
