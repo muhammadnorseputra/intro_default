@@ -16,7 +16,6 @@
     <meta name="og:title" content="Official - BKPPD Balangan">
 
     <!-- Compiled and minified CSS -->
-    <meta name="propeller" content="d4851115f7a03574554b44fc26275e93">
     <link rel="stylesheet" href="public/bundle.min.css">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
     <link rel="apple-touch-icon" href="assets/images/logo.png">
@@ -24,6 +23,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo.png">
     <link rel="apple-touch-icon" sizes="167x167" href="assets/images/logo.png">
     <link rel="apple-touch-startup-image" href="assets/images/logo.png">
+    <!-- Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6755361630409176"
+     crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199508931-2"></script>
     <script>
@@ -134,8 +136,5 @@
     </div>
     <!-- Compiled and minified JavaScript -->
     <script defer src="public/lib-min.js" crossorigin="anonymous"></script>
-    <script src="https://tobaltoyon.com/pfe/current/tag.min.js?z=4511465" data-cfasync="false" async></script>
-    <script>(function(d,z,s){s.src='//'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('untimburra.com',4511468,document.createElement('script'))</script>
-    <!-- <script>(function(d,z,s){s.src='//'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('rndhaunteran.com',4503457,document.createElement('script'))</script> -->
   </body>
 </html>
