@@ -4,8 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-title" content="Official - BKPPD Balangan">
-    <title>Official - BKPPD Balangan</title>
+    <meta name="apple-mobile-web-app-title" content="Official - BKPSDM Balangan">
+    <title>Official - BKPSDM Balangan</title>
     <meta name="theme-color" content="dark">
     <meta name="author" content="www.bkppd-balangankab.info">
     <meta name="keywords" content="official, web, bkppd, bkpsdm balangan, web bkd, bkd balangan, bkppd, bkpsdm, cpns 2021 balangan, casn 2021, pppk 2021, bkppd, bkpsdm balangan, formasi, pengadaan, informasi cpns, info cpns, info casn, sscasn, portal">
@@ -67,7 +67,8 @@
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Balangan" href="https://web.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">public</i>Portal Web</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">analytics</i>Simpeg</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Kinerja" href="https://ekinerja.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">paid</i>E-Kinerja</a>
-              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Perilaku" href="https://eprilaku.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">thumb_up_off_alt</i>E-Perilaku</a>
+              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Perilaku" href="https://eprilaku.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">thumb_up_off_alt</i>e-Perilaku</a>
+              <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Survei" href="https://ikm.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">check_circle</i>e-Survei</a>
             </div>
           </div>
         </div>
