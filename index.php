@@ -104,7 +104,7 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer teal darken-4">
+    <footer class="page-footer blue-grey darken-4">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -113,7 +113,7 @@
           </div>
         </div>
       </div>
-      <div class="footer-copyright teal">
+      <div class="footer-copyright blue-grey darken-3">
         <div class="container">
           &copy; 2019 - <?= date('Y') ?> Badan Kepegawaian dan Pengembangan Sumber Daya Manusia
         </div>
