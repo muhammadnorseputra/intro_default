@@ -84,7 +84,7 @@
           <ul class="collapsible expandable" data-collapsible="accordion">
             <li class="active">
               <div class="collapsible-header teal-text text-lighten-1">
-                <i class="material-icons">article</i>PORTAL WEB - NEW POST
+                <i class="material-icons">article</i>PORTAL WEB - UPDATE POSTINGAN TERBARU
                 <div>
                   <i class="material-icons iconadd">add</i>
                   <i class="material-icons iconremove">remove</i>
