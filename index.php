@@ -38,7 +38,7 @@
     gtag('config', 'UA-199508931-2');
     </script>
   </head>
-  <body class="grey lighten-4">
+  <body class="blue-grey darken-4">
     <div class="navbar-fixed">
       <nav class="navbar blue-grey darken-4">
         <div class="progress">
@@ -68,7 +68,7 @@
           <div class="col s12">
             <div class="center-align v-center">
               <img class="responsive-img scale-transition" width="120" alt="Logo Pemerintah Daerah Balangan" src="assets/images/logo.png">
-              <h1 class="blue-grey-text text-darken-4 font-size-1">Selamat Datang Official Website</h1>
+              <h1 class="blue-grey-text text-darken-1 font-size-1">Selamat Datang Official Website</h1>
               <h2 class="grey-text text-lighten-1">Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan</h2>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Balangan" href="https://web.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">public</i>Portal Web</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">analytics</i>Simpeg</a>
