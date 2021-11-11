@@ -40,7 +40,7 @@
   </head>
   <body class="grey lighten-4">
     <div class="navbar-fixed">
-      <nav class="navbar teal darken-2">
+      <nav class="navbar blue-grey darken-4">
         <div class="progress">
           <div class="indeterminate"></div>
         </div>
@@ -68,7 +68,7 @@
           <div class="col s12">
             <div class="center-align v-center">
               <img class="responsive-img scale-transition" width="120" alt="Logo Pemerintah Daerah Balangan" src="assets/images/logo.png">
-              <h1 class="teal-text text-lighten-1 font-size-1">Selamat Datang Official Website</h1>
+              <h1 class="blue-grey-text text-darken-4 font-size-1">Selamat Datang Official Website</h1>
               <h2 class="grey-text text-lighten-1">Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan</h2>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Balangan" href="https://web.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">public</i>Portal Web</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">analytics</i>Simpeg</a>
@@ -104,7 +104,7 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer teal lighten-1">
+    <footer class="page-footer teal darken-4">
       <div class="container">
         <div class="row">
           <div class="col">
