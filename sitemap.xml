@@ -29,8 +29,8 @@
    <priority>0.1</priority>
 </url>
 <url>
-  <loc>https://web.bkppd-balangankab.info/skm</loc>
-  <changefreq>never</changefreq>
+  <loc>https://ikm.bkppd-balangankab.info</loc>
+  <changefreq>always</changefreq>
    <priority>0.1</priority>
 </url>
 </urlset>

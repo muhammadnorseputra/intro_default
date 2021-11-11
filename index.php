@@ -8,12 +8,12 @@
     <title>Official - BKPPD Balangan</title>
     <meta name="theme-color" content="dark">
     <meta name="author" content="www.bkppd-balangankab.info">
-    <meta name="keywords" content="official, web, bkppd balangan, web bkd, bkd balangan, bkppd, cpns 2021 balangan, casn 2021, pppk 2021, bkppd balangan, formasi, pengadaan, informasi cpns, info cpns, info casn, sscasn, portal">
-    <meta name="description" content="Selamat datang pada Website Resmi Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan">
+    <meta name="keywords" content="official, web, bkppd, bkpsdm balangan, web bkd, bkd balangan, bkppd, bkpsdm, cpns 2021 balangan, casn 2021, pppk 2021, bkppd, bkpsdm balangan, formasi, pengadaan, informasi cpns, info cpns, info casn, sscasn, portal">
+    <meta name="description" content="Selamat datang pada Website Resmi Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan">
     <meta name="release" content="2019">
     <meta name="og:image" content="https://www.bkppd-balangankab.info/intro/assets/images/logo.png">
-    <meta name="og:description" content="Selamat datang pada Website Resmi Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan">
-    <meta name="og:title" content="Official - BKPPD Balangan">
+    <meta name="og:description" content="Selamat datang pada Website Resmi Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan">
+    <meta name="og:title" content="Official - BKPSDM Balangan">
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="public/bundle.min.css">
@@ -23,9 +23,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo.png">
     <link rel="apple-touch-icon" sizes="167x167" href="assets/images/logo.png">
     <link rel="apple-touch-startup-image" href="assets/images/logo.png">
-    <!-- Ads -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6755361630409176"
-     crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199508931-2"></script>
     <script>
@@ -66,7 +63,7 @@
             <div class="center-align v-center">
               <img class="responsive-img scale-transition" width="120" alt="Logo Pemerintah Daerah Balangan" src="assets/images/logo.png">
               <h1 class="teal-text text-lighten-1 font-size-1">Selamat Datang Official Website</h1>
-              <h2 class="grey-text text-lighten-1">Badan Kepegawaian Pendidikan dan Pelatihan Daerah Kabupaten Balangan</h2>
+              <h2 class="grey-text text-lighten-1">Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan</h2>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Balangan" href="https://web.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">public</i>Portal Web</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">analytics</i>Simpeg</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Kinerja" href="https://ekinerja.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal"><i class="material-icons left">paid</i>E-Kinerja</a>
@@ -97,18 +94,6 @@
               </div>
             </li>
           </ul>
-          <!--
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1099792537777374" crossorigin="anonymous"></script>
-            <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-format="fluid"
-            data-ad-layout-key="-f9+4v+7r-fc+65"
-            data-ad-client="ca-pub-1099792537777374"
-            data-ad-slot="5769488115"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-          -->
         </div>
       </section>
     </main>
@@ -123,8 +108,7 @@
       </div>
       <div class="footer-copyright teal">
         <div class="container">
-          &copy; 2019 - <?= date('Y') ?> Badan Kepegawaian Pendidikan dan Pelatihan Daerah
-          <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+          &copy; 2019 - <?= date('Y') ?> Badan Kepegawaian dan Pengembangan Sumber Daya Manusia
         </div>
       </div>
     </footer>
@@ -132,7 +116,7 @@
       <!-- <a rel="noreferrer" target="_blank" href="https://www.buymeacoffee.com/putrabungsu6" class="btn-floating btn-large orange tooltipped scale-transition" data-position="left" data-delay="50" data-tooltip="I'm Developer (Buy me a coffee)">
         <i class="large material-icons">coffee</i>
       </a> -->
-      <script data-name="NBJ-Widget" data-cfasync="false" src="https://www.nihbuatjajan.com/javascripts/widget.prod.min.js" data-id="putra" data-domain="https://www.nihbuatjajan.com" data-description="" data-message="" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+      <!-- <script data-name="NBJ-Widget" data-cfasync="false" src="https://www.nihbuatjajan.com/javascripts/widget.prod.min.js" data-id="putra" data-domain="https://www.nihbuatjajan.com" data-description="" data-message="" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script> -->
     </div>
     <!-- Compiled and minified JavaScript -->
     <script defer src="public/lib-min.js" crossorigin="anonymous"></script>
