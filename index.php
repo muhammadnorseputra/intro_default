@@ -23,6 +23,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo.png">
     <link rel="apple-touch-icon" sizes="167x167" href="assets/images/logo.png">
     <link rel="apple-touch-startup-image" href="assets/images/logo.png">
+    <!-- Mobile Themes -->
+    <meta name="theme-color" content="#00796b">
+    <meta name="msapplication-navbutton-color" content="#00796b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199508931-2"></script>
     <script>
@@ -34,7 +40,7 @@
   </head>
   <body class="grey lighten-4">
     <div class="navbar-fixed">
-      <nav class="navbar teal">
+      <nav class="navbar teal darken-2">
         <div class="progress">
           <div class="indeterminate"></div>
         </div>
