@@ -90,7 +90,7 @@
                   <i class="material-icons iconremove">remove</i>
                 </div>
               </div>
-              <div class="collapsible-body white">
+              <div class="collapsible-body blue-grey darken-2">
                 <div class="row">
                   <div id="preload"></div>
                   <div id="article"></div>
