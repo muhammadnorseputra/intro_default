@@ -68,7 +68,7 @@
           <div class="col s12">
             <div class="center-align v-center">
               <img class="responsive-img scale-transition" width="120" alt="Logo Pemerintah Daerah Balangan" src="assets/images/logo.png">
-              <h1 class="white-text font-size-1 text-shadow">Selamat Datang Official Website</h1>
+              <div class="white-text fs8 bold text-shadow">Selamat Datang Official Website</div>
               <h2 class="yellow-text text-lighten-1">Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan</h2>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Balangan" href="https://web.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal white-text text-lighten-2"><i class="material-icons left">public</i>Portal Web</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal white-text text-lighten-2"><i class="material-icons left">analytics</i>Simpeg</a>
