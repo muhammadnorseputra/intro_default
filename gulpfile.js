@@ -43,6 +43,7 @@ gulp.task("lib", function() {
             "assets/plugin/materialize/js/materialize.min.js",
             "assets/js/marquee.js",
             "assets/js/article.js",
+            "assets/js/ikm.js",
             "assets/js/main.js"
         ])
         .pipe(javascriptObfuscator({

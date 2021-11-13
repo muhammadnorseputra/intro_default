@@ -81,26 +81,36 @@
       </div>
       <section class="article">
         <div class="container">
-          <ul class="collapsible expandable" data-collapsible="accordion">
-            <li class="active">
-              <div class="collapsible-header teal-text text-lighten-1">
-                <i class="material-icons">article</i>PORTAL WEB - UPDATE POSTINGAN TERBARU
-                <div>
-                  <i class="material-icons iconadd">add</i>
-                  <i class="material-icons iconremove">remove</i>
-                </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card-panel teal">
+                <span class="white-text">IKM (Indeks Kepuasan Masyarakat)</span>
+                <div id="ikm"></div>
               </div>
-              <div class="collapsible-body teal darken-2">
-                <div class="row">
-                  <div id="preload"></div>
-                  <div id="article"></div>
-                  <div class="col s12 btn-more hide">
-                    <a href="https://web.bkppd-balangankab.info/beranda?sort=newest&type=all" class="waves-effect waves-light btn-large" style="display:block;">article lainnya <i class="material-icons right">chevron_right</i></a>
+            </div>
+          </div>
+          <div class="row">  
+            <ul class="collapsible expandable" data-collapsible="accordion">
+              <li class="active">
+                <div class="collapsible-header teal-text text-lighten-1">
+                  <i class="material-icons">article</i>PORTAL WEB - UPDATE POSTINGAN TERBARU
+                  <div>
+                    <i class="material-icons iconadd">add</i>
+                    <i class="material-icons iconremove">remove</i>
                   </div>
                 </div>
-              </div>
-            </li>
-          </ul>
+                <div class="collapsible-body teal darken-2">
+                  <div class="row">
+                    <div id="preload"></div>
+                    <div id="article"></div>
+                    <div class="col s12 btn-more hide">
+                      <a href="https://web.bkppd-balangankab.info/beranda?sort=newest&type=all" class="waves-effect waves-light btn-large" style="display:block;">article lainnya <i class="material-icons right">chevron_right</i></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
