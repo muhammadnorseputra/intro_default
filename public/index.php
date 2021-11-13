@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon" sizes="167x167" href="assets/images/logo.png">
     <link rel="apple-touch-startup-image" href="assets/images/logo.png">
     <!-- Mobile Themes -->
-    <meta name="theme-color" content="#26a69a">
+    <meta name="theme-color" content="#fff">
     <meta name="msapplication-navbutton-color" content="#26a69a">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -40,7 +40,7 @@
   </head>
   <body class="teal darken-2">
     <div class="navbar-fixed">
-      <nav class="navbar teal lighten-1 z-depth-5">
+      <nav class="navbar white grey-text z-depth-5">
         <div class="progress">
           <div class="indeterminate"></div>
         </div>
@@ -54,7 +54,7 @@
               </div>
               <div class="col s1">
                 <ul class="right hide-on-med-and-down">
-                  <li><a href="https://web.bkppd-balangankab.info/kotak_saran" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Kotak Saran"><i class="material-icons">inbox</i></a></li>
+                  <li><a href="https://web.bkppd-balangankab.info/kotak_saran" class="tooltipped teal-text" data-position="bottom" data-delay="50" data-tooltip="Kotak Saran"><i class="material-icons">inbox</i></a></li>
                 </ul>
               </div>
             </div>
@@ -88,28 +88,22 @@
                 <div id="ikm"></div>
               </div>
             </div>
+            <div class="col s12 m6">
+              <div class="card-panel teal">
+                <span class="white-text">Jumlah PNS + CPNS</span>
+                <div id="total_asn" class="white-text">
+                  <div class="fs8 truncate">Maintenance</div>
+                  <b class="fs4 white-text">Server Shutdown</b>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">  
-            <ul class="collapsible expandable" data-collapsible="accordion">
-              <li class="active">
-                <div class="collapsible-header teal-text text-lighten-1">
-                  <i class="material-icons">article</i>PORTAL WEB - UPDATE POSTINGAN TERBARU
-                  <div>
-                    <i class="material-icons iconadd">add</i>
-                    <i class="material-icons iconremove">remove</i>
-                  </div>
-                </div>
-                <div class="collapsible-body teal darken-2">
-                  <div class="row">
-                    <div id="preload"></div>
+            <div id="preload"></div>
                     <div id="article"></div>
                     <div class="col s12 btn-more hide">
                       <a href="https://web.bkppd-balangankab.info/beranda?sort=newest&type=all" class="waves-effect waves-light btn-large" style="display:block;">article lainnya <i class="material-icons right">chevron_right</i></a>
                     </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
           </div>
         </div>
       </section>

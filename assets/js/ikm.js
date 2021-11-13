@@ -1,4 +1,4 @@
-$(window).on('load', function() {
+$(function() {
 	let apiIkmUrl = 'https://ikm.bkppd-balangankab.info/api/ikm';
 	let $container = $("#ikm");
 	$.ajax({

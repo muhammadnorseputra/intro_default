@@ -25,7 +25,12 @@ body {
   background-position: left calc(60px);
   background-repeat: no-repeat;
 }
-
+main {
+  background-image: url('../assets/images/bg.png');
+  background-size: fill;
+  background-position: bottom center;
+  background-repeat: repeat; 
+}
 h1 {
   font-family: "Poppins-ExtraBold";
   font-size: 3.5rem !important;
@@ -66,7 +71,7 @@ li.active .collapsible-header .material-icons.iconremove{
     justify-content: space-between;
 }
 .text-shadow {
-  text-shadow: 0px 6px #666;
+  text-shadow: 0px 4px #333;
 }
 
 /*  fontSize: */

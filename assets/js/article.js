@@ -12,10 +12,10 @@
         <div class="col s12 m4">
             <div class="card scale-transition hoverable">
               <div class="card-image">
-                <a href="${url}" title="${slug}"><img src="${img}" alt="${judul}" style="object-fit:cover; height:150px;"></a>
+                <a href="${url}" title="${slug}"><img class="materialboxed" data-caption="${judul}" src="${img}" alt="${judul}" style="object-fit:cover; height:180px;"></a>
               </div>
               <div class="card-content">
-                <span class="grey-text text-lighten-1">${tgl} by ${by}</span>
+                <span class="grey-text text-lighten-1 truncate">${tgl} by ${by}</span>
                 <h6><a class="teal-text text-lighten-1" href="${url}" title="${slug}">${judul}</a></h6>
                 <p class="grey-text text-darken-2">${content}</p>
               </div>
