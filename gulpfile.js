@@ -57,4 +57,5 @@ gulp.task('watch', function() {
     gulp.watch('assets/js/**/*.js', gulp.series(['lib']));
     gulp.watch('assets/plugin/**/*.js', gulp.series(['lib']));
     gulp.watch('assets/css/**/*.css', gulp.series(['css']));
+    gulp.watch('public/index.php', gulp.series(['minify']));
 })
