@@ -11,7 +11,7 @@
     <meta name="keywords" content="official, web, bkppd, bkpsdm balangan, web bkd, bkd balangan, bkppd, bkpsdm, cpns 2021 balangan, casn 2021, pppk 2021, bkppd, bkpsdm balangan, formasi, pengadaan, informasi cpns, info cpns, info casn, sscasn, portal">
     <meta name="description" content="Selamat datang pada Website Resmi Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan">
     <meta name="release" content="2019">
-    <meta name="og:image" content="https://www.bkppd-balangankab.info/intro/assets/images/logo.png">
+    <meta name="og:image" content="assets/images/bg-header.jpg">
     <meta name="og:description" content="Selamat datang pada Website Resmi Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan">
     <meta name="og:title" content="Official - BKPSDM Balangan">
 
@@ -94,7 +94,7 @@
                 <div class="row">
                   <div id="preload"></div>
                   <div id="article"></div>
-                  <div class="col s12 m6 btn-more hide">
+                  <div class="col s12 btn-more hide">
                     <a href="https://web.bkppd-balangankab.info/beranda?sort=newest&type=all" class="waves-effect waves-light btn-large" style="display:block;">article lainnya <i class="material-icons right">chevron_right</i></a>
                   </div>
                 </div>
