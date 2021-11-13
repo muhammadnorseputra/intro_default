@@ -24,8 +24,8 @@
     <link rel="apple-touch-icon" sizes="167x167" href="assets/images/logo.png">
     <link rel="apple-touch-startup-image" href="assets/images/logo.png">
     <!-- Mobile Themes -->
-    <meta name="theme-color" content="#00796b">
-    <meta name="msapplication-navbutton-color" content="#00796b">
+    <meta name="theme-color" content="#26a69a">
+    <meta name="msapplication-navbutton-color" content="#26a69a">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
