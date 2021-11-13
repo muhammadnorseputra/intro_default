@@ -38,9 +38,9 @@
     gtag('config', 'UA-199508931-2');
     </script>
   </head>
-  <body class="blue-grey darken-4">
+  <body class="teal darken-2">
     <div class="navbar-fixed">
-      <nav class="navbar blue-grey darken-4">
+      <nav class="navbar teal lighten-1 z-depth-5">
         <div class="progress">
           <div class="indeterminate"></div>
         </div>
@@ -63,13 +63,13 @@
       </nav>
     </div>
     <main>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col s12">
             <div class="center-align v-center">
               <img class="responsive-img scale-transition" width="120" alt="Logo Pemerintah Daerah Balangan" src="assets/images/logo.png">
-              <h1 class="blue-grey-text text-darken-1 font-size-1">Selamat Datang Official Website</h1>
-              <h2 class="amber-text text-lighten-1">Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan</h2>
+              <h1 class="white-text font-size-1 text-shadow">Selamat Datang Official Website</h1>
+              <h2 class="yellow-text text-lighten-1">Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Kabupaten Balangan</h2>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Portal Resmi BKPPD Balangan" href="https://web.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal white-text text-lighten-2"><i class="material-icons left">public</i>Portal Web</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="Sistem Informasi Kepegawaian" href="http://silka.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal white-text text-lighten-2"><i class="material-icons left">analytics</i>Simpeg</a>
               <a target="_blank" data-position="bottom" data-delay="50" data-tooltip="E-Kinerja" href="https://ekinerja.bkppd-balangankab.info" class="btn-flat btn-large tooltipped waves-effect waves-teal white-text text-lighten-2 text-lighten-2"><i class="material-icons left">paid</i>E-Kinerja</a>
@@ -90,7 +90,7 @@
                   <i class="material-icons iconremove">remove</i>
                 </div>
               </div>
-              <div class="collapsible-body blue-grey darken-2">
+              <div class="collapsible-body teal darken-2">
                 <div class="row">
                   <div id="preload"></div>
                   <div id="article"></div>
@@ -104,16 +104,16 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer blue-grey darken-4">
+    <footer class="page-footer teal darken-2">
       <div class="container">
         <div class="row">
           <div class="col">
-            <h5 class="white-text">@TIMBKPPD</h5>
-            <p class="grey-text text-lighten-5">Welcome! - Thank for u joined</p>
+            <h5 class="white-text">@TIMBKPSDM</h5>
+            <p class="grey-text text-lighten-5">Dikembangkan pada akhir tahun 2019 sampai sekarang, oleh pengelola sistem informasi & publikasi kepegawaian.</p>
           </div>
         </div>
       </div>
-      <div class="footer-copyright blue-grey darken-3">
+      <div class="footer-copyright teal darken-1">
         <div class="container">
           &copy; 2019 - <?= date('Y') ?> Badan Kepegawaian dan Pengembangan Sumber Daya Manusia
         </div>

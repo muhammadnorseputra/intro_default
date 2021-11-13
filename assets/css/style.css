@@ -20,6 +20,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins-Reguler', sans-serif;
+  background-image: url('../assets/images/bg-header.jpg');
+  background-size: 100%;
+  background-position: left calc(60px);
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -60,4 +64,7 @@ li.active .collapsible-header .material-icons.iconremove{
 .collapsible-header {
     display: flex;
     justify-content: space-between;
+}
+.text-shadow {
+  text-shadow: 0px 6px #666;
 }
