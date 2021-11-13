@@ -3,7 +3,7 @@ var concat = require("gulp-concat");
 var minify = require("gulp-minify");
 var cleanCSS = require('gulp-clean-css');
 var concatCss = require('gulp-concat-css');
-// var autoprefixer = require('gulp-autoprefixer');
+const javascriptObfuscator = require('gulp-javascript-obfuscator');
 var rename = require('gulp-rename');
 
 gulp.task('css', function() {
@@ -38,6 +38,9 @@ gulp.task("lib", function() {
             "assets/js/article.js",
             "assets/js/main.js"
         ])
+        .pipe(javascriptObfuscator({
+            compact: true
+        }))
         .pipe(concat("lib.js"))
         .pipe(minify())
         .pipe(gulp.dest("public/"));
