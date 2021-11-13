@@ -5,6 +5,13 @@ var cleanCSS = require('gulp-clean-css');
 var concatCss = require('gulp-concat-css');
 const javascriptObfuscator = require('gulp-javascript-obfuscator');
 var rename = require('gulp-rename');
+const htmlmin = require('gulp-htmlmin');
+
+gulp.task('minify', () => {
+  return gulp.src('public/index.php')
+    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(gulp.dest('../intro_default'));
+});
 
 gulp.task('css', function() {
     return gulp.src([

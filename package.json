@@ -40,6 +40,7 @@
         "bb >= 10"
     ],
     "dependencies": {
+        "gulp-htmlmin": "^5.0.1",
         "gulp-javascript-obfuscator": "^1.1.6",
         "materialize-css": "^1.0.0"
     }
