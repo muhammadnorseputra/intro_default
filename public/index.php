@@ -112,7 +112,7 @@
                 <span class="white-text">by SILKa Online</span>
                 <div id="total_asn" class="white-text">
                   <?php  
-                    $url = 'http://192.168.1.4/api/get_grap/pns';
+                    $url = 'http://silka.bkppd-balangankab.info/api/get_grap/pns';
                     $pns = http_request($url);
                     $pns_jml = !$pns ? 'Maintenance' : number_format($pns, 0, ',','.') ;
                     $pns_status = !$pns ? 'Server Shutdown' : 'Jumlah PNS + CPNS';
