@@ -1,13 +1,14 @@
 $(function() {
 	var $form = $("form.fsearch");
 	var $url = `https://web.bkppd-balangankab.info/frontend/v1/pegawai/detail?filter[query]=`;
+	var $nip = $form.find('input#autocomplete-input');
 	var $btn = $form.find('button[type="submit"]');
 	$btn.html(`Submit <i class="material-icons right">search</i>`);
 	$form.on("submit", function(e) {
 		e.preventDefault();
-		var $nip = $form.find('input#autocomplete-input').val();
-		if($nip == '') {
+		if($nip.val() == '') {
 			alert('Silahkan Masukan NIP');
+			$nip.focus();
 			return false;
 		}
 		$btn.html(`
@@ -26,6 +27,6 @@ $(function() {
 		setTimeout(function() {  
 			$btn.html(`Submit <i class="material-icons right">search</i>`);
 		}, 3000);
-		window.location.href = $url +''+ $nip;
+		window.location.href = $url +''+ $nip.val();
 	})
 });
