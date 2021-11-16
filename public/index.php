@@ -1,3 +1,7 @@
+<?php  
+  // Ambil fungsi curl
+  include_once("public/curl.php");
+?>
 <!DOCTYPE html>
 <html lang="id-ID" dir="ltr">
   <head>
@@ -82,18 +86,39 @@
       <section class="article">
         <div class="container">
           <div class="row">
+          <form method="POST" action="#" class="fsearch">
+            <div class="input-field col s10">
+              <i class="material-icons prefix white-text">account_circle</i>
+              <input type="text" id="autocomplete-input" class="autocomplete white-text">
+              <label for="autocomplete-input">Silahkan Masukan NIP untuk Tracking Data Kepegawaian Anda</label>
+            </div>
+            <div class="s2">
+              <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit
+                <i class="material-icons right">search</i>
+              </button>
+            </div>
+          </form>  
+          </div>
+          <div class="row">
             <div class="col s12 m6">
               <div class="card-panel teal">
                 <span class="white-text">IKM (Indeks Kepuasan Masyarakat)</span>
                 <div id="ikm"></div>
               </div>
             </div>
+
             <div class="col s12 m6">
               <div class="card-panel teal">
-                <span class="white-text">Jumlah PNS + CPNS</span>
+                <span class="white-text">by SILKa Online</span>
                 <div id="total_asn" class="white-text">
-                  <div class="fs8 truncate">Maintenance</div>
-                  <b class="fs4 white-text">Server Shutdown</b>
+                  <?php  
+                    $url = 'http://192.168.1.4/api/get_grap/pns';
+                    $pns = http_request($url);
+                    $pns_jml = !$pns ? 'Maintenance' : number_format($pns, 0, ',','.') ;
+                    $pns_status = !$pns ? 'Server Shutdown' : 'Jumlah PNS + CPNS';
+                  ?>
+                  <div class="fs8 truncate"><?= $pns_jml ?></div>
+                  <b class="fs4 white-text"><?= $pns_status ?></b>
                 </div>
               </div>
             </div>

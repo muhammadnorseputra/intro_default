@@ -44,6 +44,7 @@ gulp.task("lib", function() {
             "assets/js/marquee.js",
             "assets/js/article.js",
             "assets/js/ikm.js",
+            "assets/js/search.js",
             "assets/js/main.js"
         ])
         .pipe(javascriptObfuscator({
