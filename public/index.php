@@ -149,6 +149,7 @@
       <div class="footer-copyright teal darken-1">
         <div class="container">
           &copy; 2019 - <?= date('Y') ?> Badan Kepegawaian dan Pengembangan Sumber Daya Manusia
+          <a class="grey-text text-lighten-4 right" href="https://web.bkppd-balangankab.info/kebijakan-privacy-policy">Kebijakan Privasi & Public Policy</a>
         </div>
       </div>
     </footer>
