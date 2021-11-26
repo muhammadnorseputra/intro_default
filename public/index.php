@@ -41,6 +41,8 @@
     gtag('js', new Date());
     gtag('config', 'UA-199508931-2');
     </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6373503432980668"
+     crossorigin="anonymous"></script>
   </head>
   <body class="teal darken-2">
     <div class="navbar-fixed">
