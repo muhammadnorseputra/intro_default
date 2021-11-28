@@ -32,6 +32,8 @@
     ga('create', 'UA-199508931-2', 'auto');
     ga('send', 'pageview');
     </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6373503432980668"
+     crossorigin="anonymous"></script>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation">
     <main>
