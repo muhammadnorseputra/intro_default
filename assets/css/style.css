@@ -25,12 +25,12 @@ body {
   background-position: left calc(60px);
   background-repeat: no-repeat;
 }
-main {
+/*main {
   background-image: url('../assets/images/bg.png');
   background-size: fill;
   background-position: bottom center;
   background-repeat: repeat; 
-}
+}*/
 h1 {
   font-family: "Poppins-ExtraBold";
   font-size: 3.5rem !important;
