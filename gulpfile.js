@@ -42,7 +42,7 @@ gulp.task("lib", function() {
             "assets/plugin/js-marquee/jquery.marquee.min.js",
             "assets/plugin/materialize/js/materialize.min.js",
             "assets/js/marquee.js",
-            // "assets/js/article.js",
+            "assets/js/article.js",
             "assets/js/ikm.js",
             "assets/js/search.js",
             "assets/js/main.js"
