@@ -23,19 +23,7 @@
     <link rel="stylesheet" href="assets/lib/components-font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/lib/et-line-font/et-line-font.css">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
-    <!-- <script data-ad-client="ca-pub-1099792537777374" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206130535-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-206130535-2');
-    </script>
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6373503432980668"
-     crossorigin="anonymous"></script>
+    <meta name="propeller" content="27840402bac1e027b376e22c12a21c72">
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation">
     <main>
