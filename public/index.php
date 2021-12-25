@@ -48,7 +48,7 @@
   </head>
   <body class="teal darken-2">
     <div class="navbar-fixed">
-      <nav class="navbar white grey-text z-depth-5">
+      <nav class="navbar white grey-text">
         <div class="progress">
           <div class="indeterminate"></div>
         </div>
